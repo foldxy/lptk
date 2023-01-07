@@ -1,7 +1,4 @@
-const LP = require('@lptk/book')
-const W = require('@lptk/whypto')
 const T = require('@lptk/translator').factory()
-const GP = require('@lptk/gematria-primus').factory()
 const wordlist = require('@lptk/wordlists/wordlists/english/wordlist')
 
 const sum = (a, b) => a + b
