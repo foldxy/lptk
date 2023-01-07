@@ -1,0 +1,14 @@
+{
+  "name": "@lptk/gematria-primus",
+  "version": "0.0.5",
+  "description": "An implementation/interpretation of the CICADA 3301 Gematria Primus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "foldxy <foldxy@protonmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "collect.js": "^4.16.5"
+  }
+}

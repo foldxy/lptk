@@ -1,0 +1,11 @@
+{
+  "name": "@lptk/ciphers",
+  "version": "0.0.7",
+  "description": "primus-ciphers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "foldxy <foldxy@protonmail.com>",
+  "license": "ISC"
+}

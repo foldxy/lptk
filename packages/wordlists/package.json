@@ -1,0 +1,18 @@
+{
+  "name": "@lptk/wordlists",
+  "version": "0.0.1",
+  "description": "Wordlists",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "foldxy <foldxy@protonmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@lptk/translator": "*",
+    "wordlist-english": "^1.2.1"
+  }
+}

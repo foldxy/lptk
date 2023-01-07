@@ -1,0 +1,14 @@
+{
+  "name": "@lptk/translator",
+  "version": "0.0.7",
+  "description": "Gematria Primus translator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "author": "foldxy <foldxy@protonmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@lptk/gematria-primus": "*"
+  }
+}

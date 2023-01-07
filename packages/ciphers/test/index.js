@@ -1,0 +1,49 @@
+/*
+Utility tests 
+*/
+// require('./utils/tabula-recta')(); // Manually check for proper table contents
+// require('./utils/tableau-porta')(); // Manually check for proper table contents
+console.log("UTILS")
+console.log('')
+require('./utils/keyed-alphabet')();
+console.log('')
+require('./utils/unique')();
+console.log('')
+console.log('------')
+console.log('')
+/*
+Cipher tests
+*/
+console.log("CIPHERS")
+console.log('')
+require('./ciphers/aes-256-cbc')();
+console.log('')
+require('./ciphers/affine')();
+console.log('')
+require('./ciphers/atbash')();
+console.log('')
+require('./ciphers/autokey')();
+console.log('')
+require('./ciphers/base64')();
+console.log('')
+require('./ciphers/beaufort')();
+console.log('')
+require('./ciphers/caesar')();
+console.log('')
+require('./ciphers/gronsfeld')();
+console.log('')
+require('./ciphers/polybius')();
+console.log('')
+require('./ciphers/porta')();
+console.log('')
+require('./ciphers/rot13')();
+console.log('')
+require('./ciphers/runningkey')();
+console.log('')
+require('./ciphers/substitution')();
+console.log('')
+require('./ciphers/vigenere')();
+console.log('')
+require('./ciphers/vigenere-keystream')();
+console.log('')
+console.log('------')

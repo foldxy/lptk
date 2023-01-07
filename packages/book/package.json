@@ -1,0 +1,11 @@
+{
+  "name": "@lptk/book",
+  "version": "0.0.6",
+  "description": "Liber Primus text in various segmentations",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "foldxy <foldxy@protonmail.com>",
+  "license": "ISC"
+}
