@@ -1,6 +1,6 @@
 ```javascript
-// primus-translator
-const Translator = require('primus-translator')
+// @lptk/translator
+const Translator = require('@lptk/translator')
 const GPT = new Translator()
 
 GPT.toLatin('ᛖᛗᛖᚱᚷᛖ') // => ['E', 'M', 'E', 'R', 'G', 'E']

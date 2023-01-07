@@ -1,1 +1,1 @@
-primus-keystreamer
+@lptk/keystreamer

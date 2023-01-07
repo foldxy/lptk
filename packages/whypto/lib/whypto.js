@@ -1,5 +1,5 @@
-const Ciphers = require('primus-ciphers')
-const Translator = require('primus-translator').factory()
+const Ciphers = require('@lptk/ciphers')
+const Translator = require('@lptk/translator').factory()
 const toWords = require('./utils/to-words')
 const solvedwords = require('./wordlists/solved')
 const cicadaishwords = require('./wordlists/cicadaish')

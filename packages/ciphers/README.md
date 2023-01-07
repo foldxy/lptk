@@ -1,1 +1,1 @@
-primus-ciphers
+@lptk/ciphers

@@ -81,7 +81,7 @@ Output:
 
 ## Word Values
 
-** extracted to primus-translator **
+** extracted to @lptk/translator **
 
 ## Rune Info Array (direct access)
 

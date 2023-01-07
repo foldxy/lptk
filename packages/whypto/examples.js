@@ -1,5 +1,5 @@
 const Whypto = require('./index')
-const Ciphers = require('primus-ciphers')
+const Ciphers = require('@lptk/ciphers')
 
 const a_warning_text = 'ᚱ-ᛝᚱᚪᛗᚹ'
 const a_koan_text = 'ᚹ-ᚣᛠᚹᛟ'

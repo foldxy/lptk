@@ -1,4 +1,4 @@
-const GPT = require('primus-translator').factory()
+const GPT = require('@lptk/translator').factory()
 
 const unique = function (input) {
   if (!Array.isArray(input)) {

@@ -1,5 +1,5 @@
 // Gematria Primus Translator
-const GP = require('gematria-primus').factory()
+const GP = require('@lptk/gematria-primus').factory()
 
 const chop = function (variants, text, matches, append = []) {
   if (text.length < 2) return

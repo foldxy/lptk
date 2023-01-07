@@ -1,7 +1,7 @@
 {
   "name": "@lptk/ciphers",
   "version": "0.0.7",
-  "description": "primus-ciphers",
+  "description": "@lptk/ciphers",
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js"
