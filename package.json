@@ -9,13 +9,7 @@
   "author": "",
   "license": "ISC",
   "workspaces": [
-    "packages/gematria-primus",
-    "packages/book",
-    "packages/ciphers",
-    "packages/keystreamer",
-    "packages/toolkit",
-    "packages/translator",
-    "packages/whypto",
-    "packages/wordlists"
+    "packages/*",
+    "apps/*"
   ]
 }

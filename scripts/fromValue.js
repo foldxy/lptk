@@ -3,21 +3,23 @@ const wordlist = require('@lptk/wordlists/wordlists/english/wordlist')
 
 const sum = (a, b) => a + b
 
-const expanded = wordlist.map(word => ({
+const extender = word => ({
     runic: word,
     latin: T.toLatin(word, true),
     positionTotal: T.toPositions(word).reduce(sum, 0),
     primeTotal: T.toPrimes(word).reduce(sum, 0),
     totientTotal: T.toTotients(word).reduce(sum, 0),
-}))
+})
+
+const expanded = wordlist.map(extender)
 
 const POSITION = "position"
 const PRIME = "prime"
 const TOTIENT = "totient"
 const ANY = "any"
 
-const applyLense = (lense, value) => {
-    switch (lense) {
+const applyLens = (lens, value) => {
+    switch (lens) {
         case POSITION:
             return ({ positionTotal }) => {
                 return positionTotal === value
@@ -51,7 +53,7 @@ const applySort = (sort) => {
     return (a, b) => a.latin.localeCompare(b.latin)
 }
 
-// [ lense, value, runicLength]
+// [ lens, value, runicLength]
 [
     // [PRIME, 110, 2],
     // [PRIME, 487, 11],
@@ -67,9 +69,9 @@ const applySort = (sort) => {
     // [PRIME, 533, 9],
 
 
-].forEach(([ lense, value, length ], i) => {
-    console.group(`${i}: ${lense} value: ${value}, length: ${length}`)
-    let filtered = expanded.filter(applyLense(lense, value))
+].forEach(([ lens, value, length ], i) => {
+    console.group(`${i}: ${lens} value: ${value}, length: ${length}`)
+    let filtered = expanded.filter(applyLens(lens, value))
 
     if (length > 0) {
         filtered = filtered.filter(applyRunicLength(length))
@@ -83,7 +85,7 @@ const applySort = (sort) => {
 
 
 // const filtered = expanded
-//     .filter(applyLense(PRIME, 145))
+//     .filter(applyLens(PRIME, 145))
 //     // .filter(applyRunicLength(2))
 
 // const sorted = filtered//.sort(applySort())
