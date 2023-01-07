@@ -4,7 +4,7 @@
 const runes = function () {
   const runes = [
     { index: 0, rune: "ᚠ", letter: "F", alt: "F", prime: 2, totient: 1, fib: 1, lucas: 2 },
-    { index: 1, rune: "ᚢ", letter: "V", alt: "U", prime: 3, totient: 2, fib: 2, lucas: 1 },
+    { index: 1, rune: "ᚢ", letter: "U", alt: "V", prime: 3, totient: 2, fib: 2, lucas: 1 },
     { index: 2, rune: "ᚦ", letter: "TH", alt: "TH", prime: 5, totient: 4, fib: 3, lucas: 3 },
     { index: 3, rune: "ᚩ", letter: "O", alt: "O", prime: 7, totient: 6, fib: 5, lucas: 4 },
     { index: 4, rune: "ᚱ", letter: "R", alt: "R", prime: 11, totient: 10, fib: 8, lucas: 7 },
