@@ -101,7 +101,8 @@ const applySort = (sort) => {
 // ]
 
 // const wordValues = LP.pageWords()[17].map(extender).map(w => [PRIME, w.primeTotal, w.runic.length, w.runic])
-const wordValues = LP.pageWords()[20].map(extender).map(w => [PRIME, w.primeTotal, 0, w.runic])
+// const wordValues = LP.pageWords()[20].map(extender).map(w => [PRIME, w.primeTotal, 0, w.runic])
+const wordValues = ['OR'].map(extender).map(w => [PRIME, w.primeTotal, 0, w.runic])
 
 function SumSetItem({ item }) {
   return (

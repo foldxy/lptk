@@ -22,7 +22,7 @@ const stream = function(length, offset = 0, sieveSize = 10000) {
       primes.push(i)
     }
   }
-  console.log(primes)
+  // console.log(primes)
   return primes.slice(offset, offset + length)
 }
 

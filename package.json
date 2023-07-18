@@ -11,5 +11,9 @@
   "workspaces": [
     "packages/*",
     "apps/*"
-  ]
+  ],
+  "dependencies": {
+    "power-radix": "^2.5.6",
+    "theorem.js": "^1.2.0"
+  }
 }
